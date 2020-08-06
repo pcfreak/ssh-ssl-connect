@@ -3,9 +3,9 @@
 clear
 IP=$(wget -qO- ipv4.icanhazip.com)
 DBHOST='185.61.137.168'
-DBUSER='tonystar1_evolutionvpnml'
-DBPASS='evolutionvpnml'
-DBNAME='tonystar1_evolutionvpn.ml'
+DBUSER='tymlexvp_cutevpn'
+DBPASS='Regina143$'
+DBNAME='tymlexvp_cutevpn'
 
 
 apt-get clean
