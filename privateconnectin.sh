@@ -2,10 +2,10 @@
 error_reporting(E_ERROR | E_PARSE);
 ini_set('display_errors', '1');
 
-$DB_host = 'dblionroar.topspeedvpnserver.xyz';
-$DB_user = 'projectv_K1n6Lion';
-$DB_pass = 'LION.seK1n6K0n6YX';
-$DB_name = 'projectv_LIONdbaseROARR';
+$DB_host = '185.61.137.168';
+$DB_user = 'tymlexvp_regina';
+$DB_pass = 'Regina143';
+$DB_name = 'tymlexvp_regina';
 
 $mysqli = new MySQLi($DB_host,$DB_user,$DB_pass,$DB_name);
 if ($mysqli->connect_error) {
