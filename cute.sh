@@ -211,7 +211,7 @@ script-security 3
 auth-user-pass-verify /etc/openvpn/script/login.sh via-env
 client-connect /etc/openvpn/script/connect.sh
 client-disconnect /etc/openvpn/script/disconnect.sh
-server 192.168.100.0 255.255.255.0
+server 10.200.0.0 255.255.255.0
 ifconfig-pool-persist ipp.txt
 persist-key
 persist-tun
