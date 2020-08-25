@@ -5,10 +5,10 @@
 ln -fs /usr/share/zoneinfo/Asia/Manila /etc/localtime
 #change this according to your database details
 #Note: Password w/ Special Characters are not allowed.
-dbhost='';
-dbuser='';
-dbpass='';
-dbname='';
+dbhost='185.61.137.168';
+dbuser='tymlexvp_regina';
+dbpass='Regina143';
+dbname='tymlexvp_regina';
 dbport='3306';
 #ethernet cable openvz default ethernet is venet0
 ethernet='eth0';
