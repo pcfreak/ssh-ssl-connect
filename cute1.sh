@@ -3,9 +3,9 @@
 clear
 IP=$(wget -qO- ipv4.icanhazip.com)
 DBHOST='185.61.137.168'
-DBUSER='tymlexvp_cutevpn'
-DBPASS='Regina143$'
-DBNAME='tymlexvp_cutevpn'
+DBUSER='tymlexvp_regina'
+DBPASS='Regina143'
+DBNAME='tymlexvp_regina'
 
 
 apt-get clean
