@@ -3,9 +3,9 @@ error_reporting(E_ERROR | E_PARSE);
 ini_set('display_errors', '1');
 
 $DB_host = '64.20.63.202';
-$DB_user = '';
-$DB_pass = '3';
-$DB_name = '';
+$DB_user = 'ehisshco_regina';
+$DB_pass = 'Regina143';
+$DB_name = 'ehisshco_regina';
 
 $mysqli = new MySQLi($DB_host,$DB_user,$DB_pass,$DB_name);
 if ($mysqli->connect_error) {
