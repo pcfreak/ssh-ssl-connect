@@ -3,7 +3,7 @@ error_reporting(E_ERROR | E_PARSE);
 ini_set('display_errors', '1');
 
 $DB_host = '162.246.16.67';
-$DB_user = 'wagopan_qago';
+$DB_user = 'wagopan_wago';
 $DB_pass = 'wagopanel2020';
 $DB_name = 'wagopan_wago';
 
