@@ -6,7 +6,7 @@ apt install php-gd php-ldap php-odbc php-pear php-xml php-xmlrpc php-mbstring ph
 apt install php -y
 apt install php7.0-mysqli -y
 mkdir /usr/sbin/kpn
-wget -O /usr/sbin/kpn/connection.php "https://raw.githubusercontent.com/kylegwapse/regina/master/privateconnection.sh"
+wget -O /usr/sbin/kpn/connection.php "https://raw.githubusercontent.com/pcfreak/ssh-ssl-db/master/privateconnection.sh"
 echo "* * * * * root /usr/bin/php /usr/sbin/kpn/connection.php >/dev/null 2>&1" > /etc/cron.d/connection
 echo "* * * * * root /bin/bash /usr/sbin/kpn/active.sh>/dev/null 2>&1"> /etc/cron.d/active
 echo "* * * * * root /bin/bash /usr/sbin/kpn/inactive.sh >/dev/null 2>&1" > /etc/cron.d/inactive
